@@ -1,4 +1,7 @@
-puts "\n\tWelcome to the IsItGreaterThan Test\n"
+puts "*********************************************************"
+puts "*         Welcome to the IsItGreaterThan Test           *"
+puts "*         ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~           *"
+puts "*********************************************************\n"
 puts "**********************"
 puts "Please Enter your Name"
 puts "**********************"
