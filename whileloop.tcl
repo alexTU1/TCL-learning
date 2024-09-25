@@ -11,7 +11,7 @@ set interval [gets stdin];#user input for interval
 puts "\nWaiting for results..."
 after 1500
 
-#incrementing x by 0.2 until it reaches 5
+#incrementing x by interval until it reaches range cap
 while {$x < $range_cap} {
     set x [expr $x + $interval]
     puts "x is: $x"
