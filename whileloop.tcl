@@ -5,8 +5,11 @@ set tcl_precision 2
 puts "Type counter value (integer):"
 set range_cap [gets stdin];#user input for counter number
 
-puts "Type increment value:"
+puts "\nType increment value:"
 set interval [gets stdin];#user input for interval
+
+puts "\nWaiting for results..."
+after 1500
 
 #incrementing x by 0.2 until it reaches 5
 while {$x < $range_cap} {
