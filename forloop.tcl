@@ -5,7 +5,7 @@ puts "Enter a number for your matrix:"
 set matrix [gets stdin]
 puts "\nOkay, you chose a $matrix x $matrix matrix\n"
 
-puts "Configuring..."
+puts "Configuring Your Matrix..."
 after 1200
 
 for {set i 0} {$i < $matrix} {set i [expr $i + 1]} {
