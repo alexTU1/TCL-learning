@@ -8,10 +8,10 @@ puts "\nOkay, you chose a $matrix x $matrix matrix\n"
 puts "Configuring Your Matrix..."
 after 1200
 
-for {set i 0} {$i < $matrix} {set i [expr $i + 1]} {
-    for {set j 0} {$j < $matrix} {set j [expr $j + 1]} {
+for {set i 0} {$i < $matrix} {incr i} {
+    for {set j 0} {$j < $matrix} {incr j} {
         puts -nonewline "*    "
-        after 50
+        after 20
     }
     puts \n
 }
