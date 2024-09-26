@@ -26,6 +26,6 @@ proc directIncrCounter {arr} {
 set my_list [split "1,2,4,5,8,10,25,26" ","]; #output: 3
 set my_list2 [split "1,2,3,4,5,6,25,26" ","]; #output: 6
 set my_list3 [split "2,4,6,8,10,12,14,15" ","]; #output: 1
-puts "[directIncrCounter $my_list]"
-puts "[directIncrCounter $my_list2]"
-puts "[directIncrCounter $my_list3]"
+puts "\nWith the \{$my_list\} array, there are [directIncrCounter $my_list] times where it incremented by 1"
+puts "With the \{$my_list2\} array, there are [directIncrCounter $my_list2] times where it incremented by 1"
+puts "With the \{$my_list3\} array, there are [directIncrCounter $my_list3] times where it incremented by 1\n"
