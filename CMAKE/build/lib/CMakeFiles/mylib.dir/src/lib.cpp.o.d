@@ -1,4 +1,5 @@
-CMakeFiles/mylib.dir/lib.cpp.o: /workspaces/TCL-learning/CMAKE/lib.cpp \
+lib/CMakeFiles/mylib.dir/src/lib.cpp.o: \
+ /workspaces/TCL-learning/CMAKE/lib/src/lib.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -149,4 +150,4 @@ CMakeFiles/mylib.dir/lib.cpp.o: /workspaces/TCL-learning/CMAKE/lib.cpp \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /workspaces/TCL-learning/CMAKE/lib.h
+ /workspaces/TCL-learning/CMAKE/lib/src/../inc/lib.h

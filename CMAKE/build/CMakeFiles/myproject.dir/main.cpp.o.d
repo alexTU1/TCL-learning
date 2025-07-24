@@ -149,4 +149,4 @@ CMakeFiles/myproject.dir/main.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /workspaces/TCL-learning/CMAKE/lib/lib.h
+ /workspaces/TCL-learning/CMAKE/./lib/inc/lib.h

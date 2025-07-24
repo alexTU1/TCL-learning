@@ -1,4 +1,4 @@
-add_library(mylib lib.cpp)
+add_library(mylib ./src/lib.cpp)
 
 target_include_directories(mylib
     INTERFACE

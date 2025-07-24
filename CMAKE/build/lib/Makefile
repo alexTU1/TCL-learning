@@ -130,29 +130,29 @@ mylib/fast:
 	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/build
 .PHONY : mylib/fast
 
-lib.o: lib.cpp.o
-.PHONY : lib.o
+src/lib.o: src/lib.cpp.o
+.PHONY : src/lib.o
 
 # target to build an object file
-lib.cpp.o:
-	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/lib.cpp.o
-.PHONY : lib.cpp.o
+src/lib.cpp.o:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/lib.cpp.o
+.PHONY : src/lib.cpp.o
 
-lib.i: lib.cpp.i
-.PHONY : lib.i
+src/lib.i: src/lib.cpp.i
+.PHONY : src/lib.i
 
 # target to preprocess a source file
-lib.cpp.i:
-	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/lib.cpp.i
-.PHONY : lib.cpp.i
+src/lib.cpp.i:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/lib.cpp.i
+.PHONY : src/lib.cpp.i
 
-lib.s: lib.cpp.s
-.PHONY : lib.s
+src/lib.s: src/lib.cpp.s
+.PHONY : src/lib.s
 
 # target to generate assembly for a file
-lib.cpp.s:
-	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/lib.cpp.s
-.PHONY : lib.cpp.s
+src/lib.cpp.s:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/lib.cpp.s
+.PHONY : src/lib.cpp.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mylib"
-	@echo "... lib.o"
-	@echo "... lib.i"
-	@echo "... lib.s"
+	@echo "... src/lib.o"
+	@echo "... src/lib.i"
+	@echo "... src/lib.s"
 .PHONY : help
 
 

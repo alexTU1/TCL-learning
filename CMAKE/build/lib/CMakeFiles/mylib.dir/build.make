@@ -69,28 +69,28 @@ include lib/CMakeFiles/mylib.dir/progress.make
 # Include the compile flags for this target's objects.
 include lib/CMakeFiles/mylib.dir/flags.make
 
-lib/CMakeFiles/mylib.dir/lib.cpp.o: lib/CMakeFiles/mylib.dir/flags.make
-lib/CMakeFiles/mylib.dir/lib.cpp.o: /workspaces/TCL-learning/CMAKE/lib/lib.cpp
-lib/CMakeFiles/mylib.dir/lib.cpp.o: lib/CMakeFiles/mylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/TCL-learning/CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/mylib.dir/lib.cpp.o"
-	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/mylib.dir/lib.cpp.o -MF CMakeFiles/mylib.dir/lib.cpp.o.d -o CMakeFiles/mylib.dir/lib.cpp.o -c /workspaces/TCL-learning/CMAKE/lib/lib.cpp
+lib/CMakeFiles/mylib.dir/src/lib.cpp.o: lib/CMakeFiles/mylib.dir/flags.make
+lib/CMakeFiles/mylib.dir/src/lib.cpp.o: /workspaces/TCL-learning/CMAKE/lib/src/lib.cpp
+lib/CMakeFiles/mylib.dir/src/lib.cpp.o: lib/CMakeFiles/mylib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/TCL-learning/CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/mylib.dir/src/lib.cpp.o"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/mylib.dir/src/lib.cpp.o -MF CMakeFiles/mylib.dir/src/lib.cpp.o.d -o CMakeFiles/mylib.dir/src/lib.cpp.o -c /workspaces/TCL-learning/CMAKE/lib/src/lib.cpp
 
-lib/CMakeFiles/mylib.dir/lib.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mylib.dir/lib.cpp.i"
-	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/TCL-learning/CMAKE/lib/lib.cpp > CMakeFiles/mylib.dir/lib.cpp.i
+lib/CMakeFiles/mylib.dir/src/lib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mylib.dir/src/lib.cpp.i"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/TCL-learning/CMAKE/lib/src/lib.cpp > CMakeFiles/mylib.dir/src/lib.cpp.i
 
-lib/CMakeFiles/mylib.dir/lib.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/lib.cpp.s"
-	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/TCL-learning/CMAKE/lib/lib.cpp -o CMakeFiles/mylib.dir/lib.cpp.s
+lib/CMakeFiles/mylib.dir/src/lib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/lib.cpp.s"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/TCL-learning/CMAKE/lib/src/lib.cpp -o CMakeFiles/mylib.dir/src/lib.cpp.s
 
 # Object files for target mylib
 mylib_OBJECTS = \
-"CMakeFiles/mylib.dir/lib.cpp.o"
+"CMakeFiles/mylib.dir/src/lib.cpp.o"
 
 # External object files for target mylib
 mylib_EXTERNAL_OBJECTS =
 
-lib/libmylib.a: lib/CMakeFiles/mylib.dir/lib.cpp.o
+lib/libmylib.a: lib/CMakeFiles/mylib.dir/src/lib.cpp.o
 lib/libmylib.a: lib/CMakeFiles/mylib.dir/build.make
 lib/libmylib.a: lib/CMakeFiles/mylib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/TCL-learning/CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmylib.a"
