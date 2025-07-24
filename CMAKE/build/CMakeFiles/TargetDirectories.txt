@@ -1,0 +1,6 @@
+/workspaces/TCL-learning/CMAKE/build/CMakeFiles/myproject.dir
+/workspaces/TCL-learning/CMAKE/build/CMakeFiles/edit_cache.dir
+/workspaces/TCL-learning/CMAKE/build/CMakeFiles/rebuild_cache.dir
+/workspaces/TCL-learning/CMAKE/build/lib/CMakeFiles/mylib.dir
+/workspaces/TCL-learning/CMAKE/build/lib/CMakeFiles/edit_cache.dir
+/workspaces/TCL-learning/CMAKE/build/lib/CMakeFiles/rebuild_cache.dir
