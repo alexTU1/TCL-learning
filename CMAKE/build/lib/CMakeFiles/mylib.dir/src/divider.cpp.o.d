@@ -1,6 +1,7 @@
-CMakeFiles/myproject.dir/main.cpp.o: \
- /workspaces/TCL-learning/CMAKE/main.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
+lib/CMakeFiles/mylib.dir/src/divider.cpp.o: \
+ /workspaces/TCL-learning/CMAKE/lib/src/divider.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
+ /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -149,8 +150,4 @@ CMakeFiles/myproject.dir/main.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /workspaces/TCL-learning/CMAKE/./lib/inc/lib.h \
- /workspaces/TCL-learning/CMAKE/./lib/inc/adder.h \
- /workspaces/TCL-learning/CMAKE/./lib/inc/subtracter.h \
- /workspaces/TCL-learning/CMAKE/./lib/inc/multiplier.h \
- /workspaces/TCL-learning/CMAKE/./lib/inc/divider.h
+ /workspaces/TCL-learning/CMAKE/lib/src/../inc/divider.h

@@ -130,6 +130,54 @@ mylib/fast:
 	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/build
 .PHONY : mylib/fast
 
+src/adder.o: src/adder.cpp.o
+.PHONY : src/adder.o
+
+# target to build an object file
+src/adder.cpp.o:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/adder.cpp.o
+.PHONY : src/adder.cpp.o
+
+src/adder.i: src/adder.cpp.i
+.PHONY : src/adder.i
+
+# target to preprocess a source file
+src/adder.cpp.i:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/adder.cpp.i
+.PHONY : src/adder.cpp.i
+
+src/adder.s: src/adder.cpp.s
+.PHONY : src/adder.s
+
+# target to generate assembly for a file
+src/adder.cpp.s:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/adder.cpp.s
+.PHONY : src/adder.cpp.s
+
+src/divider.o: src/divider.cpp.o
+.PHONY : src/divider.o
+
+# target to build an object file
+src/divider.cpp.o:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/divider.cpp.o
+.PHONY : src/divider.cpp.o
+
+src/divider.i: src/divider.cpp.i
+.PHONY : src/divider.i
+
+# target to preprocess a source file
+src/divider.cpp.i:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/divider.cpp.i
+.PHONY : src/divider.cpp.i
+
+src/divider.s: src/divider.cpp.s
+.PHONY : src/divider.s
+
+# target to generate assembly for a file
+src/divider.cpp.s:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/divider.cpp.s
+.PHONY : src/divider.cpp.s
+
 src/lib.o: src/lib.cpp.o
 .PHONY : src/lib.o
 
@@ -154,6 +202,54 @@ src/lib.cpp.s:
 	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/lib.cpp.s
 .PHONY : src/lib.cpp.s
 
+src/multiplier.o: src/multiplier.cpp.o
+.PHONY : src/multiplier.o
+
+# target to build an object file
+src/multiplier.cpp.o:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/multiplier.cpp.o
+.PHONY : src/multiplier.cpp.o
+
+src/multiplier.i: src/multiplier.cpp.i
+.PHONY : src/multiplier.i
+
+# target to preprocess a source file
+src/multiplier.cpp.i:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/multiplier.cpp.i
+.PHONY : src/multiplier.cpp.i
+
+src/multiplier.s: src/multiplier.cpp.s
+.PHONY : src/multiplier.s
+
+# target to generate assembly for a file
+src/multiplier.cpp.s:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/multiplier.cpp.s
+.PHONY : src/multiplier.cpp.s
+
+src/subtracter.o: src/subtracter.cpp.o
+.PHONY : src/subtracter.o
+
+# target to build an object file
+src/subtracter.cpp.o:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/subtracter.cpp.o
+.PHONY : src/subtracter.cpp.o
+
+src/subtracter.i: src/subtracter.cpp.i
+.PHONY : src/subtracter.i
+
+# target to preprocess a source file
+src/subtracter.cpp.i:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/subtracter.cpp.i
+.PHONY : src/subtracter.cpp.i
+
+src/subtracter.s: src/subtracter.cpp.s
+.PHONY : src/subtracter.s
+
+# target to generate assembly for a file
+src/subtracter.cpp.s:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/subtracter.cpp.s
+.PHONY : src/subtracter.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,9 +259,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mylib"
+	@echo "... src/adder.o"
+	@echo "... src/adder.i"
+	@echo "... src/adder.s"
+	@echo "... src/divider.o"
+	@echo "... src/divider.i"
+	@echo "... src/divider.s"
 	@echo "... src/lib.o"
 	@echo "... src/lib.i"
 	@echo "... src/lib.s"
+	@echo "... src/multiplier.o"
+	@echo "... src/multiplier.i"
+	@echo "... src/multiplier.s"
+	@echo "... src/subtracter.o"
+	@echo "... src/subtracter.i"
+	@echo "... src/subtracter.s"
 .PHONY : help
 
 

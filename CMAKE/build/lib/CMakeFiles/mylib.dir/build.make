@@ -83,17 +83,81 @@ lib/CMakeFiles/mylib.dir/src/lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/lib.cpp.s"
 	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/TCL-learning/CMAKE/lib/src/lib.cpp -o CMakeFiles/mylib.dir/src/lib.cpp.s
 
+lib/CMakeFiles/mylib.dir/src/adder.cpp.o: lib/CMakeFiles/mylib.dir/flags.make
+lib/CMakeFiles/mylib.dir/src/adder.cpp.o: /workspaces/TCL-learning/CMAKE/lib/src/adder.cpp
+lib/CMakeFiles/mylib.dir/src/adder.cpp.o: lib/CMakeFiles/mylib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/TCL-learning/CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/mylib.dir/src/adder.cpp.o"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/mylib.dir/src/adder.cpp.o -MF CMakeFiles/mylib.dir/src/adder.cpp.o.d -o CMakeFiles/mylib.dir/src/adder.cpp.o -c /workspaces/TCL-learning/CMAKE/lib/src/adder.cpp
+
+lib/CMakeFiles/mylib.dir/src/adder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mylib.dir/src/adder.cpp.i"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/TCL-learning/CMAKE/lib/src/adder.cpp > CMakeFiles/mylib.dir/src/adder.cpp.i
+
+lib/CMakeFiles/mylib.dir/src/adder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/adder.cpp.s"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/TCL-learning/CMAKE/lib/src/adder.cpp -o CMakeFiles/mylib.dir/src/adder.cpp.s
+
+lib/CMakeFiles/mylib.dir/src/subtracter.cpp.o: lib/CMakeFiles/mylib.dir/flags.make
+lib/CMakeFiles/mylib.dir/src/subtracter.cpp.o: /workspaces/TCL-learning/CMAKE/lib/src/subtracter.cpp
+lib/CMakeFiles/mylib.dir/src/subtracter.cpp.o: lib/CMakeFiles/mylib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/TCL-learning/CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/mylib.dir/src/subtracter.cpp.o"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/mylib.dir/src/subtracter.cpp.o -MF CMakeFiles/mylib.dir/src/subtracter.cpp.o.d -o CMakeFiles/mylib.dir/src/subtracter.cpp.o -c /workspaces/TCL-learning/CMAKE/lib/src/subtracter.cpp
+
+lib/CMakeFiles/mylib.dir/src/subtracter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mylib.dir/src/subtracter.cpp.i"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/TCL-learning/CMAKE/lib/src/subtracter.cpp > CMakeFiles/mylib.dir/src/subtracter.cpp.i
+
+lib/CMakeFiles/mylib.dir/src/subtracter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/subtracter.cpp.s"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/TCL-learning/CMAKE/lib/src/subtracter.cpp -o CMakeFiles/mylib.dir/src/subtracter.cpp.s
+
+lib/CMakeFiles/mylib.dir/src/multiplier.cpp.o: lib/CMakeFiles/mylib.dir/flags.make
+lib/CMakeFiles/mylib.dir/src/multiplier.cpp.o: /workspaces/TCL-learning/CMAKE/lib/src/multiplier.cpp
+lib/CMakeFiles/mylib.dir/src/multiplier.cpp.o: lib/CMakeFiles/mylib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/TCL-learning/CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/mylib.dir/src/multiplier.cpp.o"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/mylib.dir/src/multiplier.cpp.o -MF CMakeFiles/mylib.dir/src/multiplier.cpp.o.d -o CMakeFiles/mylib.dir/src/multiplier.cpp.o -c /workspaces/TCL-learning/CMAKE/lib/src/multiplier.cpp
+
+lib/CMakeFiles/mylib.dir/src/multiplier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mylib.dir/src/multiplier.cpp.i"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/TCL-learning/CMAKE/lib/src/multiplier.cpp > CMakeFiles/mylib.dir/src/multiplier.cpp.i
+
+lib/CMakeFiles/mylib.dir/src/multiplier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/multiplier.cpp.s"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/TCL-learning/CMAKE/lib/src/multiplier.cpp -o CMakeFiles/mylib.dir/src/multiplier.cpp.s
+
+lib/CMakeFiles/mylib.dir/src/divider.cpp.o: lib/CMakeFiles/mylib.dir/flags.make
+lib/CMakeFiles/mylib.dir/src/divider.cpp.o: /workspaces/TCL-learning/CMAKE/lib/src/divider.cpp
+lib/CMakeFiles/mylib.dir/src/divider.cpp.o: lib/CMakeFiles/mylib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/TCL-learning/CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CMakeFiles/mylib.dir/src/divider.cpp.o"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/mylib.dir/src/divider.cpp.o -MF CMakeFiles/mylib.dir/src/divider.cpp.o.d -o CMakeFiles/mylib.dir/src/divider.cpp.o -c /workspaces/TCL-learning/CMAKE/lib/src/divider.cpp
+
+lib/CMakeFiles/mylib.dir/src/divider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mylib.dir/src/divider.cpp.i"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/TCL-learning/CMAKE/lib/src/divider.cpp > CMakeFiles/mylib.dir/src/divider.cpp.i
+
+lib/CMakeFiles/mylib.dir/src/divider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/divider.cpp.s"
+	cd /workspaces/TCL-learning/CMAKE/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/TCL-learning/CMAKE/lib/src/divider.cpp -o CMakeFiles/mylib.dir/src/divider.cpp.s
+
 # Object files for target mylib
 mylib_OBJECTS = \
-"CMakeFiles/mylib.dir/src/lib.cpp.o"
+"CMakeFiles/mylib.dir/src/lib.cpp.o" \
+"CMakeFiles/mylib.dir/src/adder.cpp.o" \
+"CMakeFiles/mylib.dir/src/subtracter.cpp.o" \
+"CMakeFiles/mylib.dir/src/multiplier.cpp.o" \
+"CMakeFiles/mylib.dir/src/divider.cpp.o"
 
 # External object files for target mylib
 mylib_EXTERNAL_OBJECTS =
 
 lib/libmylib.a: lib/CMakeFiles/mylib.dir/src/lib.cpp.o
+lib/libmylib.a: lib/CMakeFiles/mylib.dir/src/adder.cpp.o
+lib/libmylib.a: lib/CMakeFiles/mylib.dir/src/subtracter.cpp.o
+lib/libmylib.a: lib/CMakeFiles/mylib.dir/src/multiplier.cpp.o
+lib/libmylib.a: lib/CMakeFiles/mylib.dir/src/divider.cpp.o
 lib/libmylib.a: lib/CMakeFiles/mylib.dir/build.make
 lib/libmylib.a: lib/CMakeFiles/mylib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/TCL-learning/CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmylib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/TCL-learning/CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libmylib.a"
 	cd /workspaces/TCL-learning/CMAKE/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/mylib.dir/cmake_clean_target.cmake
 	cd /workspaces/TCL-learning/CMAKE/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mylib.dir/link.txt --verbose=$(VERBOSE)
 

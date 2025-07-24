@@ -98,12 +98,12 @@ lib/clean: lib/CMakeFiles/mylib.dir/clean
 CMakeFiles/myproject.dir/all: lib/CMakeFiles/mylib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/TCL-learning/CMAKE/build/CMakeFiles --progress-num=3,4 "Built target myproject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/TCL-learning/CMAKE/build/CMakeFiles --progress-num=7,8 "Built target myproject"
 .PHONY : CMakeFiles/myproject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/myproject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/TCL-learning/CMAKE/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/TCL-learning/CMAKE/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/myproject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/TCL-learning/CMAKE/build/CMakeFiles 0
 .PHONY : CMakeFiles/myproject.dir/rule
@@ -124,12 +124,12 @@ CMakeFiles/myproject.dir/clean:
 lib/CMakeFiles/mylib.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/TCL-learning/CMAKE/build/CMakeFiles --progress-num=1,2 "Built target mylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/TCL-learning/CMAKE/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target mylib"
 .PHONY : lib/CMakeFiles/mylib.dir/all
 
 # Build rule for subdir invocation for target.
 lib/CMakeFiles/mylib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/TCL-learning/CMAKE/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/TCL-learning/CMAKE/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/mylib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/TCL-learning/CMAKE/build/CMakeFiles 0
 .PHONY : lib/CMakeFiles/mylib.dir/rule
