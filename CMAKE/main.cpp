@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include <stdio.h>
 #include "./lib/inc/lib.h"
 #include "./lib/inc/adder.h"
@@ -9,6 +10,7 @@ using namespace std;
 
 int main(){
     int a,b,choice,answer;
+    double myQuotient;
     printhw();
     cout<<"Enter a Number"<<endl;
     cin>>a;
@@ -32,8 +34,8 @@ int main(){
             std::cout<<"Your numbers multiply to "<<answer<<endl;
             break;
         case 4:
-            answer = alex_divide(a,b);
-            std::cout<<"Your numbers divde to "<<answer<<endl;
+            myQuotient = alex_divide(a,b);
+            std::cout<<"Your numbers divde to "<<std::fixed<<std::setprecision(2)<<myQuotient<<endl;
             break;
     }
 }

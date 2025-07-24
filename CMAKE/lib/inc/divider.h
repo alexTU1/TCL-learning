@@ -1,3 +1,3 @@
 #pragma once
 
-int alex_divide(int a, int b);
+double alex_divide(int a, int b);
