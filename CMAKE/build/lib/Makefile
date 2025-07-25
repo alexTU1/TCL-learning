@@ -226,6 +226,30 @@ src/multiplier.cpp.s:
 	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/multiplier.cpp.s
 .PHONY : src/multiplier.cpp.s
 
+src/mymath.o: src/mymath.cpp.o
+.PHONY : src/mymath.o
+
+# target to build an object file
+src/mymath.cpp.o:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/mymath.cpp.o
+.PHONY : src/mymath.cpp.o
+
+src/mymath.i: src/mymath.cpp.i
+.PHONY : src/mymath.i
+
+# target to preprocess a source file
+src/mymath.cpp.i:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/mymath.cpp.i
+.PHONY : src/mymath.cpp.i
+
+src/mymath.s: src/mymath.cpp.s
+.PHONY : src/mymath.s
+
+# target to generate assembly for a file
+src/mymath.cpp.s:
+	cd /workspaces/TCL-learning/CMAKE/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/src/mymath.cpp.s
+.PHONY : src/mymath.cpp.s
+
 src/subtracter.o: src/subtracter.cpp.o
 .PHONY : src/subtracter.o
 
@@ -271,6 +295,9 @@ help:
 	@echo "... src/multiplier.o"
 	@echo "... src/multiplier.i"
 	@echo "... src/multiplier.s"
+	@echo "... src/mymath.o"
+	@echo "... src/mymath.i"
+	@echo "... src/mymath.s"
 	@echo "... src/subtracter.o"
 	@echo "... src/subtracter.i"
 	@echo "... src/subtracter.s"

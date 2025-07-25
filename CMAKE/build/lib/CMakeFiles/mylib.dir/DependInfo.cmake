@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/workspaces/TCL-learning/CMAKE/lib/src/divider.cpp" "lib/CMakeFiles/mylib.dir/src/divider.cpp.o" "gcc" "lib/CMakeFiles/mylib.dir/src/divider.cpp.o.d"
   "/workspaces/TCL-learning/CMAKE/lib/src/lib.cpp" "lib/CMakeFiles/mylib.dir/src/lib.cpp.o" "gcc" "lib/CMakeFiles/mylib.dir/src/lib.cpp.o.d"
   "/workspaces/TCL-learning/CMAKE/lib/src/multiplier.cpp" "lib/CMakeFiles/mylib.dir/src/multiplier.cpp.o" "gcc" "lib/CMakeFiles/mylib.dir/src/multiplier.cpp.o.d"
+  "/workspaces/TCL-learning/CMAKE/lib/src/mymath.cpp" "lib/CMakeFiles/mylib.dir/src/mymath.cpp.o" "gcc" "lib/CMakeFiles/mylib.dir/src/mymath.cpp.o.d"
   "/workspaces/TCL-learning/CMAKE/lib/src/subtracter.cpp" "lib/CMakeFiles/mylib.dir/src/subtracter.cpp.o" "gcc" "lib/CMakeFiles/mylib.dir/src/subtracter.cpp.o.d"
   )
 

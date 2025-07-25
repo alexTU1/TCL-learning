@@ -1,2 +1,2 @@
-/usr/bin/ar qc libmylib.a CMakeFiles/mylib.dir/src/lib.cpp.o CMakeFiles/mylib.dir/src/adder.cpp.o CMakeFiles/mylib.dir/src/subtracter.cpp.o CMakeFiles/mylib.dir/src/multiplier.cpp.o CMakeFiles/mylib.dir/src/divider.cpp.o
+/usr/bin/ar qc libmylib.a CMakeFiles/mylib.dir/src/lib.cpp.o CMakeFiles/mylib.dir/src/adder.cpp.o CMakeFiles/mylib.dir/src/subtracter.cpp.o CMakeFiles/mylib.dir/src/multiplier.cpp.o CMakeFiles/mylib.dir/src/divider.cpp.o CMakeFiles/mylib.dir/src/mymath.cpp.o
 /usr/bin/ranlib libmylib.a

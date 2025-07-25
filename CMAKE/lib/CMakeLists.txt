@@ -4,6 +4,7 @@ set(MY_LIBRARY_SOURCES
     ./src/subtracter.cpp
     ./src/multiplier.cpp
     ./src/divider.cpp
+    ./src/mymath.cpp
 ) 
 
 add_library(mylib ${MY_LIBRARY_SOURCES})

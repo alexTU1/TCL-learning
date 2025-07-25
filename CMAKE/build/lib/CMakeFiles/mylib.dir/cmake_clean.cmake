@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mylib.dir/src/lib.cpp.o.d"
   "CMakeFiles/mylib.dir/src/multiplier.cpp.o"
   "CMakeFiles/mylib.dir/src/multiplier.cpp.o.d"
+  "CMakeFiles/mylib.dir/src/mymath.cpp.o"
+  "CMakeFiles/mylib.dir/src/mymath.cpp.o.d"
   "CMakeFiles/mylib.dir/src/subtracter.cpp.o"
   "CMakeFiles/mylib.dir/src/subtracter.cpp.o.d"
   "libmylib.a"
